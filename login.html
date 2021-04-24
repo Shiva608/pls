@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1 style="color: silver;text-align: center;">Basic Calculator login</h1>
+        <div class="container jumbotron" style="text-align: center;">
+            <form onsubmit="return login()">
+                <div>
+                    <input id="em" type="email" class="form-control" placeholder="email_address" required>
+                </div>
+                <br>
+                <div>
+                    <input id="pass" type="password" class="form-control" placeholder="password" required>
+                </div>
+                <br>
+                <div>
+                    <input class="bg-primary text-white" id="submit" type="submit" >
+                </div>
+                <div>
+                    <p id="para"></p>
+                </div>
+            </form>
+        </div>
+        <script src="./login.js"></script>
+        
+    </body>
+</html>
